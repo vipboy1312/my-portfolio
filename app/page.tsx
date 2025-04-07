@@ -2,7 +2,7 @@ import { CompareDemo } from "@/components/CompareDemo";
 import Hero from "@/components/Hero";
 import { ThreeDMarqueeDemo } from "@/components/ThreeDMarqueeDemo";
 import { Cover } from "@/components/ui/cover";
-import { FaFacebook, FaGit, FaGithub } from "react-icons/fa6";
+import { FaFacebook, FaGithub } from "react-icons/fa6";
 
 export default function Home() {
   return (

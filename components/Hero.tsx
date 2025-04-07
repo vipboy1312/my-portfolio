@@ -1,8 +1,5 @@
 import React from "react";
-import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa6";
 import { AuroraBackground } from "./ui/aurora-background";
 
 const Hero = () => {
