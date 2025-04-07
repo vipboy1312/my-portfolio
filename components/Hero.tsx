@@ -16,7 +16,7 @@ const Hero = () => {
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               duration={2}
               filter={false}
-              words="Brings Your Ideas Come To Life"
+              words="Bring Your Ideas Come To Life"
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
