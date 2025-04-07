@@ -1,6 +1,5 @@
 "use client";
 import { ThreeDMarquee } from "@/components/ui/3d-marquee";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 export function ThreeDMarqueeDemo() {
   const images = [
