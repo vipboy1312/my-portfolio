@@ -1,6 +1,7 @@
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { AuroraBackground } from "./ui/aurora-background";
+import { BiDownArrowAlt } from "react-icons/bi";
 
 const Hero = () => {
   return (
@@ -25,6 +26,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <a href="#my-work" className="z-10 scroll-smooth">
+        <button className="cursor-pointer bg-sky-500 text-white p-3 rounded-full shadow-lg hover:bg-sky-600 transition-all duration-300">
+          <BiDownArrowAlt size={24} />
+        </button>
+      </a>
     </AuroraBackground>
   );
 };

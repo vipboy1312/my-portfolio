@@ -2,12 +2,16 @@ import { CompareDemo } from "@/components/CompareDemo";
 import Hero from "@/components/Hero";
 import { ThreeDMarqueeDemo } from "@/components/ThreeDMarqueeDemo";
 import { Cover } from "@/components/ui/cover";
+import WorkCarousel from "@/components/WorkCarousel";
 import { FaFacebook, FaGithub } from "react-icons/fa6";
-
 export default function Home() {
   return (
     <main>
       <Hero />
+      <p id="my-work" className="text-center text-3xl mt-20 mb-10">
+        My Works
+      </p>
+      <WorkCarousel />
       <p id="about" className="text-center text-3xl my-20">
         Responsive & Beautiful Designs
       </p>

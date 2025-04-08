@@ -1,3 +1,6 @@
+import firebasePicture from "@/assets/MyWork/firebase-implementation.png";
+import ecoursePicture from "@/assets/MyWork/e-course.png";
+import weatherAppPicture from "@/assets/MyWork/weather-app.png";
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -215,3 +218,31 @@ export const navItems = [
       img: "/link.svg",
     },
   ];
+
+  export const works = [
+    // Just mapping to keep things DRY
+    {
+      href: "https://firebase-implementation2-nw8z.vercel.app/",
+      title: "Authentication",
+      desc: "using Firebase Authentication to make a secure and beautiful login",
+      img: firebasePicture,
+    },
+    {
+      href: "https://weather-app-seven-psi-49.vercel.app/",
+      title: "API",
+      desc: "using WeatherAPIs to make a stunning Weather website",
+      img: weatherAppPicture,
+    },
+    {
+      href: "https://ecourse-project.vercel.app/",
+      title: "Make any designs",
+      desc: "I can code any design you want",
+      img: ecoursePicture,
+    },
+    {
+      href: "https://firebase-implementation2-nw8z.vercel.app/",
+      title: "Coming Soon...",
+      desc: "",
+      img: null,
+    },
+  ]
